@@ -1,10 +1,10 @@
 <?php
 
 function Createdb(){
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "bookstore";
+    $servername = "mywebserverdb.ctz6atxd51yp.ap-south-1.rds.amazonaws.com";
+    $username = "admin";
+    $password = "12345678";
+    $dbname = "mywebserverdb";
 
     // create connection
     $con = mysqli_connect($servername, $username, $password);
